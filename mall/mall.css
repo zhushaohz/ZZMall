@@ -1,12 +1,69 @@
 .nav{
     margin-top: 40px;
 }
-a:link{
-    color: #000;
+.nav a:link{
+    color: #737474;
 }
-a:visited{
-    color: #000;
+.nav a:visited{
+    color: #737474;
 }
-a:hover{
-    color: #999;
+.nav a:hover{
+    color: #ffbb00;
+    text-decoration:none;
+}
+h1{
+    position: absolute;
+    left: 90px;
+    top: 15px;
+}
+.row{
+    margin-top: 20px;
+}
+.card{
+    
+    height: 220px;
+    
+}
+.card:hover{
+    
+    border: 0px solid #fe672e;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.card:hover p{
+    color: #fe672e;
+}
+.row a:link{
+    color: #08080c;
+    text-decoration:none;
+}
+.row a:visited{
+    color: #08080c;
+    text-decoration:none;
+}
+.row a:hover{
+    color: #fe672e;
+    text-decoration:none;
+}
+.tab{
+    margin-bottom: 10px;
+}
+.price{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #fe672e;
+}
+.btn{
+    position: relative;
+    bottom: -5px;
+    right: -15px;
+    width: 100%;
+}
+.btn button{
+    width: 45%;
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    background-color: #ffbb00;
+    color: #fff;
+    font-size: 14px;
 }

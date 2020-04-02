@@ -29,7 +29,7 @@ session_start();
         <div class="t0">
           <ul class="nav nav-tabs n1">
             <li class="nav-item">
-              <a class="nav-link" href="../">ZZMall</a>
+              <a class="nav-link" href="../mall/">ZZMall</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Help</a>
