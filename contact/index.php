@@ -12,7 +12,7 @@ session_start();
 
     <link rel="shortcut icon" href="rain.ico" />
 
-    <link href="cart.css?v=0001" rel="stylesheet" type="text/css" />
+    <link href="contact.css?v=0001" rel="stylesheet" type="text/css" />
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -24,6 +24,9 @@ session_start();
         <ul class="nav nav-tabs justify-content-end">
             <li class="nav-item">
                 <a class="nav-link" href="../mall">Mall</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../cart/">Cart <span class="badge badge-secondary">0</span></a>
             </li>
             <?php
             if (isset($_SESSION['username'])) {
@@ -38,16 +41,17 @@ session_start();
             }
             ?>
             <li class="nav-item">
-                <a class="nav-link" href="../contact/">Contact</a>
+                <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
         <div>
             <h1>ZZMall</h1>
         </div>
-        
+
+
 
     </div>
-    <script type="text/javascript" src="cart.js"></script>
+    <script type="text/javascript" src="contact.js"></script>
 </body>
 
 </html>
