@@ -1,45 +1,114 @@
-a:link {color:#000;}
-a:visited {color:#000;}
-a:hover {color:#000;}
-a:active {color:#000;}
-.fish{
-    border: 0px solid #000;
-    position: relative;
-    float: left;
+body{
+    user-select: none;
 }
-.daohang{
-    border: 0px solid #000;
-    position: relative;
-    display: inline;
+.nav{
+    margin-top: 40px;
 }
-.n1{
-    width: 50%;
-    float: left;
+.nav a:link{
+    color: #737474;
 }
-.n2{
-    width: 50%;
-    float: right;
+.nav a:visited{
+    color: #737474;
 }
-.t0{
-    height: 42px;
-    
+.nav a:hover{
+    color: #ffbb00;
+    text-decoration:none;
 }
+h1{
+    position: absolute;
+    left: 90px;
+    top: 15px;
+}
+
+.out a:link {color:#000;}
+.out a:visited {color:#000;}
+.out a:hover {color:#000;}
+.out a:active {color:#000;}
+
 .out{
     position: relative;
     top: 40px;
     border: 0px solid #000;
-    text-align: center;
+    
 }
 .out a{
-    padding-top: 5px;
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-bottom: 5px;
-    border: 0px solid #000;
-    border-radius: 4px;
-    box-shadow:0 0 20px #666;
+    margin-left: 30%;
+    padding-top: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 10px;
+    border: 1px solid #DCD9F2;
+    border-radius: 10px;
 }
 .out a:link{text-decoration:none;}
 .out a:visited{text-decoration:none;}
-.out a:hover{text-decoration:none;}
+.out a:hover{
+    text-decoration:none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 .out a:active{text-decoration:none;}
+.xuanze{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    
+    border: 0px solid #000;
+}
+.xuanze button{
+    outline: none;
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+    
+}
+.btn1{
+    margin-left: 30%;
+    border-right: 0;
+    border-left: 1px solid #737474;
+    border-bottom: 1px solid #737474;
+    border-bottom-left-radius: 15px;
+    background-color: #fff;
+}
+.btn2{
+    border-right: 1px solid #737474;
+    border-bottom: 1px solid #737474;
+    border-bottom-right-radius: 15px;
+    background-color: #fff;
+
+}
+.btn1:hover{
+    background-color: #000;
+    color: #fff;
+}
+.btn2:hover{
+    background-color: #000;
+    color: #fff;
+}
+.pay{
+    margin-top: 35px;
+    margin-left: 30%;
+}
+.pay p{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #DCD9F2;
+    border-radius: 10px;
+}
+.pay button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    border: 1px solid #DCD9F2;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #08080c;
+}
+.pay button:hover{
+    border: 1px solid #000;
+    color: #000;
+}

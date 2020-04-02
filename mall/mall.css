@@ -1,3 +1,6 @@
+body{
+    user-select: none;
+}
 .nav{
     margin-top: 40px;
 }
@@ -65,5 +68,14 @@ h1{
     border-radius: 4px;
     background-color: #ffbb00;
     color: #fff;
+    font-size: 14px;
+}
+.btn button:hover{
+    width: 45%;
+    outline: none;
+    border: 1px solid #ffbb00;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #ffbb00;
     font-size: 14px;
 }

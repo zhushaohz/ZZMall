@@ -12,7 +12,7 @@ session_start();
 
     <link rel="shortcut icon" href="rain.ico" />
 
-    <link href="mall.css?v=0000" rel="stylesheet" type="text/css" />
+    <link href="mall.css?v=0001" rel="stylesheet" type="text/css" />
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -23,7 +23,7 @@ session_start();
     <div class="container">
         <ul class="nav nav-tabs justify-content-end">
             <li class="nav-item">
-                <a class="nav-link" href="#">Cart</a>
+                <a class="nav-link" href="../cart/">Cart <span class="badge badge-secondary">0</span></a>
             </li>
             <?php
             if (isset($_SESSION['username'])) {
@@ -46,29 +46,29 @@ session_start();
         </div>
         <div class="row">
             <div class="col-md-3">
-                <a href="./rocket/">
-                    <div class="card">
 
-                        <div class="card-body">
-                            <p>美区小火箭</p>
-                            <div class="tab">
-                                <span class="badge badge-pill badge-dark">手工发货</span>
-                            </div>
+                <div class="card">
 
-
-                            <span>销量：</span><span class="badge badge-dark">11</span>
-                            <span>剩余：</span><span class="badge badge-dark">11</span>
-                            <div class="price">
-                                <span>￥25</span>
-                            </div>
-                            <div class="btn">
-                                <button>加入购物车</button>
-                                <button>立即购买</button>
-                            </div>
+                    <div class="card-body">
+                        <p>美区小火箭</p>
+                        <div class="tab">
+                            <span class="badge badge-pill badge-dark">手工发货</span>
                         </div>
 
+
+                        <span>销量：</span><span class="badge badge-dark">11</span>
+                        <span>剩余：</span><span class="badge badge-dark">11</span>
+                        <div class="price">
+                            <span>￥25</span>
+                        </div>
+                        <div class="btn">
+                            <button>加入购物车</button>
+                            <button>立即购买</button>
+                        </div>
                     </div>
-                </a>
+
+                </div>
+
             </div>
             <div class="col-md-3">
                 <div class="card">

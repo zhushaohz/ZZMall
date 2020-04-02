@@ -12,7 +12,7 @@ session_start();
 
 	<link rel="shortcut icon" href="rain.ico" />
 
-	<link href="user.css?v=1963" rel="stylesheet" type="text/css" />
+	<link href="user.css?v=0000" rel="stylesheet" type="text/css" />
 	<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -21,48 +21,53 @@ session_start();
 
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-2">
-
-			</div>
-			<div class="col-md-8">
-				<div class="t0">
-					<ul class="nav nav-tabs n1">
-						<li class="nav-item">
-							<a class="nav-link" href="../mall/">ZZMall</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Help</a>
-						</li>
-					</ul>
-					<ul class="nav nav-tabs justify-content-end n2">
-						<?php
-						if (isset($_SESSION['username'])) {
-							echo '<li class="nav-item daohang"><a class="nav-link" href="">' . $_SESSION['username'] . '</a></li>';
-						} else {
-							echo '<li class="nav-item daohang">
+		<ul class="nav nav-tabs justify-content-end">
+			<li class="nav-item">
+				<a class="nav-link" href="../mall">Mall</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../cart/">Cart <span class="badge badge-secondary">0</span></a>
+			</li>
+			<?php
+			if (isset($_SESSION['username'])) {
+				echo '<li class="nav-item daohang"><a class="nav-link" href="../user/">' . $_SESSION['username'] . '</a></li>';
+			} else {
+				echo '<li class="nav-item daohang">
                             <a class="nav-link" href="../signup/">Sign up</a>
                         </li>
                         <li class="nav-item daohang">
                             <a class="nav-link" href="../login/">Log in</a>
                         </li>';
-						}
-						?>
-					</ul>
-				</div>
-				<div>
-					<span>个人设置</span>
-				</div>
-				<div class="out">
-					<a href="logout.php?action=logout" type="btn btn-light" role="button">Log out</a>
-				</div>
-			</div>
-			<div class="col-md-2">
-
-			</div>
+			}
+			?>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contact</a>
+			</li>
+		</ul>
+		<div>
+			<h1>ZZMall</h1>
+		</div>
+		<div class="xuanze btn-group">
+			<button class="btn1">个人中心</button>
+			<button class="btn2">我的订单</button>
 
 		</div>
+		<div class="pay">
+			<p>余额:</p>
+			<button>充值</button>
+			<p>用户名：</p>
+
+		</div>
+
+
+		<div class="out">
+			<a href="logout.php?action=logout" type="btn btn-light" role="button">Log out</a>
+		</div>
 	</div>
+
+
+
+
 	<script type="text/javascript" src="user.js"></script>
 </body>
 
