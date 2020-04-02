@@ -25,7 +25,7 @@ login.onclick = function(){
                     console.log(request.responseText);
                     if (request.responseText=='密码正确') {
                         console.log('密码正确');
-                        window.location.href='../'
+                        window.location.href='../mall/'
                     } else {
                         document.getElementById('alerttext').innerText = "用户名或密码有误";
                         document.getElementById('alert1').style.display = "";
