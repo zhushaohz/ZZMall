@@ -21,35 +21,34 @@ h1 {
 .zhe{
     position: fixed;
     top: 0;
-    left: 100px;
+    right: 0;
     bottom: 0;
     
-    width: 1%;
     height: 100%;
     background: rgba(256,256,256,1);
 }
 @keyframes myfirst
 {
-from {left: 0;}
-to {left: 100%;}
+from {width: 100%;}
+to {width: 0;}
 }
 
 @-moz-keyframes myfirst /* Firefox */
 {
-    from {left: 0;}
-    to {left: 100%;}
+    from {width: 100%;}
+    to {width: 0;}
 }
 
 @-webkit-keyframes myfirst /* Safari 和 Chrome */
 {
-    from {left: 0;}
-    to {left: 100%;}
+    from {width: 100%;}
+    to {width: 0;}
 }
 
 @-o-keyframes myfirst /* Opera */
 {
-    from {left: 0;}
-    to {left: 100%;}
+    from {width: 100%;}
+    to {width: 0;}
 }
 .zhe{
     animation: myfirst 5s;
