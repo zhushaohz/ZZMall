@@ -10,7 +10,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <link rel="shortcut icon" href="rain.ico" />
+    <link rel="shortcut icon" href="../mall.ico" />
 
     <link href="mall.css?v=0001" rel="stylesheet" type="text/css" />
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
@@ -62,7 +62,7 @@ session_start();
                             <span>￥25</span>
                         </div>
                         <div class="btn">
-                            <button>加入购物车</button>
+                            <button type="button" onclick="cart('sale1')">加入购物车</button>
                             <button>立即购买</button>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ session_start();
                             <span>￥45</span>
                         </div>
                         <div class="btn">
-                            <button>加入购物车</button>
+                            <button type="button" onclick="cart('sale2')">加入购物车</button>
                             <button>立即购买</button>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ session_start();
                             <span>￥65</span>
                         </div>
                         <div class="btn">
-                            <button>加入购物车</button>
+                            <button type="button" onclick="cart('sale3')">加入购物车</button>
                             <button>立即购买</button>
                         </div>
                     </div>
@@ -128,7 +128,7 @@ session_start();
                             <span>￥70</span>
                         </div>
                         <div class="btn">
-                            <button>加入购物车</button>
+                            <button type="button" onclick="cart('sale4')">加入购物车</button>
                             <button>立即购买</button>
                         </div>
                     </div>

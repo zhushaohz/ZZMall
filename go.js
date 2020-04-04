@@ -1,4 +1,4 @@
-setTimeout("go()","5000000"); 
+setTimeout("go()","6000"); 
 function go(){
     window.location.href='./mall';
     
