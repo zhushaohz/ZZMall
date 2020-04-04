@@ -12,7 +12,7 @@ session_start();
 
     <link rel="shortcut icon" href="../mall.ico" />
 
-    <link href="mall.css?v=0001" rel="stylesheet" type="text/css" />
+    <link href="mall.css?v=0004" rel="stylesheet" type="text/css" />
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -23,7 +23,7 @@ session_start();
     <div class="container">
         <ul class="nav nav-tabs justify-content-end">
             <li class="nav-item">
-                <a class="nav-link" href="../cart/">Cart <span class="badge badge-secondary">0</span></a>
+                <a class="nav-link" href="../cart/">Cart <span class="badge badge-secondary" id="cartnum">0</span></a>
             </li>
             <?php
             if (isset($_SESSION['username'])) {
@@ -116,7 +116,7 @@ session_start();
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body">
-                        <p>美区礼品卡</p>
+                        <p>美区礼品卡$10</p>
                         <div class="tab">
                             <span class="badge badge-pill badge-dark">手工发货</span>
                         </div>

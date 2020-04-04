@@ -1,5 +1,10 @@
+var cartnum = document.getElementById('cartnum').textContent;
+console.log(cartnum);
 function cart(s){
     console.log(s);
+    cartnum++;
+    console.log(cartnum);
+    document.getElementById('cartnum').innerText = cartnum;
     switch(s)
     {
         case 'sale1':

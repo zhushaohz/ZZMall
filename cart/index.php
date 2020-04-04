@@ -10,9 +10,9 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <link rel="shortcut icon" href="rain.ico" />
+    <link rel="shortcut icon" href="../mall.ico" />
 
-    <link href="cart.css?v=0001" rel="stylesheet" type="text/css" />
+    <link href="cart.css?v=0011" rel="stylesheet" type="text/css" />
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -42,10 +42,85 @@ session_start();
             </li>
         </ul>
         <div>
-            <h1>ZZMall</h1>
+            <h1>ZZMall Cart</h1>
         </div>
-        
+        <div class="card">
+            <div class="card-body">
+                <div class="dian">
+                    <img id="xuan" src="选择.png">
+                    
 
+                </div>
+                <span>美区小火箭</span>
+                <div class="price">
+                    ￥25
+                </div>
+                <div class="num form-inline">
+                    <div class="n1">-</div>
+                    <div class="n2">0</div>
+                    <div class="n3">+</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="dian">
+                    <img id="xuan" src="选择.png">
+                    
+
+                </div>
+                <span>美区Quan</span>
+                <div class="price">
+                    ￥25
+                </div>
+                <div class="num form-inline">
+                    <div class="n1">-</div>
+                    <div class="n2">0</div>
+                    <div class="n3">+</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="dian">
+                    <img id="xuan" src="选择.png">
+                    
+
+                </div>
+                <span>美区QuanX</span>
+                <div class="price">
+                    ￥25
+                </div>
+                <div class="num form-inline">
+                    <div class="n1">-</div>
+                    <div class="n2">0</div>
+                    <div class="n3">+</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="dian">
+                    <img id="xuan" src="选择.png">
+                    
+
+                </div>
+                <span>美区礼品卡$10</span>
+                <div class="price">
+                    ￥25
+                </div>
+                <div class="num form-inline">
+                    <div class="n1">-</div>
+                    <div class="n2">0</div>
+                    <div class="n3">+</div>
+                </div>
+            </div>
+        </div>
+        <div class="pay form-inline">
+            合计：124
+        <div class="pp">结算</div>
+        
+        </div>    
     </div>
     <script type="text/javascript" src="cart.js"></script>
 </body>
